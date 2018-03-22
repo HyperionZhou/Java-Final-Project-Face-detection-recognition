@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GroupProjectforFace.jnlp">
+  <information>
+    <title>GroupProjectforFace</title>
+    <vendor>Group 3</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path=/Users/mac/Desktop/GroupProjectforFace/opencv/opencv/build_opencv/lib "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GroupProjectforFace.jar" size="18102484" download="eager" />
+    <jar href="lib/derby.jar" size="3104883" download="eager" />
+    <jar href="lib/derbyclient.jar" size="585704" download="eager" />
+    <jar href="lib/derbynet.jar" size="266471" download="eager" />
+    <jar href="lib/javacpp.jar" size="312994" download="eager" />
+    <jar href="lib/opencv-3.1.0-1.3.jar" size="684821" download="eager" />
+    <jar href="lib/opencv-331.jar" size="531380" download="eager" />
+    <jar href="lib/opencv-macosx-x86_64.jar" size="8530331" download="eager" />
+    <jar href="lib/opencv-windows-x86_64.jar" size="10330607" download="eager" />
+    <jar href="lib/opencv.jar" size="684821" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GroupProjectforFace" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="sample.Main"  name="GroupProjectforFace" />
+  <update check="always"/>
+</jnlp>
